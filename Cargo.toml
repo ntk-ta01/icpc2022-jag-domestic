@@ -5,4 +5,38 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+
+[[bin]]
+name = "a"
+path = "src/bin/a.rs"
+
+[[bin]]
+name = "b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "d"
+path = "src/bin/d.rs"
+
+[[bin]]
+name = "e"
+path = "src/bin/e.rs"
+
+[[bin]]
+name = "f"
+path = "src/bin/f.rs"
+
+[[bin]]
+name = "g"
+path = "src/bin/g.rs"
+
+[[bin]]
+name = "h"
+path = "src/bin/h.rs"
+
 [dependencies]
+proconio = { version = "=0.4.3", features = ["derive"] }
